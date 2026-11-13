@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main() {
+    int SP;
+    int CP;
+    cout<<"enter selling price:-";
+    cin>>SP;
+    cout<<"enter cost price:-";
+    cin>>CP;
+    if(CP>SP){
+        cout<<"Seller has made loss"<<endl;
+        cout<<"total loss:- ";
+        cout<<CP-SP;
+    }else {
+        cout<<"Seller has made profit"<<endl;   
+        cout<<"total profit:- ";
+        cout<<SP-CP;
+    }
+}
